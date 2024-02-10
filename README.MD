@@ -80,5 +80,3 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 ```spi``` - ввод-вывод реализуется через интерфейс SPI (один канал на отправку и получение).
 - необходима визуализация передачи данных через SPI.
-
-test
