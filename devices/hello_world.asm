@@ -1,8 +1,4 @@
-nigger:
-    I hate niggers
-
-    I hate niggers
-
-    I love white people
-
-    churka churka
+label:
+add nigger nigge
+mov nigga niggd
+jnz fuck fuck

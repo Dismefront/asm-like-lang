@@ -1,1 +1,1 @@
-from .tokenizer import tokenize, Arg, Command
+from translator.tokenizer import tokenize, Arg, CiscCommand

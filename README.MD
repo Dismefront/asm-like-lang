@@ -105,8 +105,6 @@ math_opcode ::= 'mov'
               | 'add'
               | 'sub'
               | 'cmp'
-              | 'shl'
-              | 'shr'
 
 math_args ::= reg_id ',' reg_id
             | mem_by_reg_id ',' reg_id
@@ -155,10 +153,9 @@ reg_id ::= 'eax'
          | 'esp'
          | 'eip'
 
-immed ::= u32
-        | i32
+immed ::= i32
         | symbol
-port_id ::= u16
+port_id ::= i32
 
 directive ::= "word" literal
 literal ::= immed

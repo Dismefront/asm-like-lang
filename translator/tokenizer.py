@@ -2,7 +2,7 @@ import json
 from typing import List
 
 
-class Command:
+class CiscCommand:
 
     def __init__(self, ln_no: int, line: str) -> None:
         self.line_number = ln_no
@@ -40,13 +40,13 @@ class Arg:
         }
 
 
-def tokenize(source: str) -> List[Command]:
+def tokenize(source: str) -> List[CiscCommand]:
     src_file = open(source, "r")
-    parsed_list: List[Command] = []
+    parsed_list: List[CiscCommand] = []
     for idx, line in enumerate(src_file):
         line = line.strip()
         if line == "":
             continue
-        command = Command(idx, line)
+        command = CiscCommand(idx, line)
         parsed_list.append(command)
     return parsed_list

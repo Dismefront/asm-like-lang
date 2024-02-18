@@ -1,5 +1,6 @@
 import sys
 from translator import tokenize
+from machine import generate_mc
 
 if __name__ == "__main__":
     assert len(sys.argv) == 4, \
@@ -8,4 +9,5 @@ if __name__ == "__main__":
     inp_device_url = sys.argv[2]
     out_device_url = sys.argv[3]
 
-    parsed_commands = tokenize(program_url)
+    ast = tokenize(program_url)
+    generate_mc(ast)
