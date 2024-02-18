@@ -1,5 +1,5 @@
 import sys
-from translator.tokenizer import tokenize
+from translator import tokenize
 
 if __name__ == "__main__":
     assert len(sys.argv) == 4, \
@@ -8,4 +8,4 @@ if __name__ == "__main__":
     inp_device_url = sys.argv[2]
     out_device_url = sys.argv[3]
 
-    parsed_commands = tokenize(program_url)  # Первый этап обработки кода
+    parsed_commands = tokenize(program_url)
