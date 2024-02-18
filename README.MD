@@ -80,3 +80,97 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 ```spi``` - ввод-вывод реализуется через интерфейс SPI (один канал на отправку и получение).
 - необходима визуализация передачи данных через SPI.
+
+## Язык программирования
+```
+program ::= terms
+
+terms ::= term
+        | terms term
+
+term ::= instruction
+       | label_def
+       | directive
+
+
+instruction ::= math_op
+              | branch_op
+              | alter_op
+              | io_op
+              | control_op
+              | stack_op
+
+math_op ::= math_opcode math_args
+math_opcode ::= 'mov'
+              | 'add'
+              | 'sub'
+              | 'cmp'
+              | 'shl'
+              | 'shr'
+
+math_args ::= reg_id ',' reg_id
+            | mem_by_reg_id ',' reg_id
+            | reg_id ',' mem_by_reg_id
+            | reg_id ',' label_ref
+            | label_ref ',' reg_id
+            | reg_id ',' immed
+
+
+branch_op ::= branch_opcode branch_args
+branch_opcode ::= 'jmp'
+                | 'jz'
+                | 'jnz'
+branch_args ::= label_ref
+
+
+alter_op ::= alter_opcode alter_args
+alter_opcode ::= 'inc'
+               | 'dec'
+alter_args ::= reg_id
+
+
+io_op ::= io_opcode io_args
+io_opcode ::= 'in'
+            | 'out'
+io_args ::= port_id
+
+
+control_op ::= 'exit'
+             | 'div'
+
+
+stack_op ::= 'ret'
+           | 'call' label_ref
+           | 'pop' reg_id
+           | 'push' push_args
+push_args ::= reg_id
+            | immed
+
+
+mem_by_reg_id ::= '[' reg_id ']'
+reg_id ::= 'eax'
+         | 'ebx'
+         | 'ecx'
+         | 'edx'
+         | 'esp'
+         | 'eip'
+
+immed ::= u32
+        | i32
+        | symbol
+port_id ::= u16
+
+directive ::= "word" literal
+literal ::= immed
+          | string
+
+label_ref ::= label_id
+label_def ::= label_id ':'
+label_id ::= /^[a-zA-Z0-9_]+$/i
+
+
+i32 ::= <целое число>
+symbol ::= <символ, заключённый в одинарные кавычки>
+string ::= <строка, заключённая в двойные кавычки>
+```
+
