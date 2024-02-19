@@ -1,5 +1,6 @@
 from enum import Enum
 from typing import List
+from machine.data_mem import put_int, put_str
 
 from translator import Arg
 
@@ -9,14 +10,17 @@ class Label:
     def __init__(self, name: str) -> None:
         self.name = name
         self.value: None | str | int = None
+        self.immed = True
 
     def setValue(self, val: str | int) -> None:
         self.value = val
+        if isinstance(self.value, str):
+            self.immed = False
 
     def toJSON(self) -> dict:
         return {
             'name': self.name,
-            'literal': self.value is not None,
+            'immed': self.immed,
             'value': self.value
         }
 
@@ -74,9 +78,11 @@ def label(name: str,
         assert len(args) > 1
         try:
             arg = int(args[1].name)
+            put_int(name, arg)
         except ValueError:
-            arg = ' '.join([x.name for x in args[1::]])
-        label.setValue(arg)
+            arg = ' '.join([x.name for x in args[1::]]).strip('\"')
+            put_str(name, arg)
+        return []
     return [
         Command(line_number, LLI.LABEL.value, label)
     ]
