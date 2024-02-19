@@ -1,4 +1,6 @@
 import sys
+from typing import List
+from machine import Command
 from translator import tokenize
 from machine import generate_mc
 
@@ -10,4 +12,6 @@ if __name__ == "__main__":
     out_device_url = sys.argv[3]
 
     ast = tokenize(program_url)
-    generate_mc(ast)
+    mc: List[Command] = generate_mc(ast)
+    import json
+    print(json.dumps([x.toJSON() for x in mc], indent=2))

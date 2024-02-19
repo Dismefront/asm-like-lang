@@ -47,6 +47,6 @@ def tokenize(source: str) -> List[CiscCommand]:
         line = line.strip()
         if line == "":
             continue
-        command = CiscCommand(idx, line)
+        command = CiscCommand(idx + 1, line)
         parsed_list.append(command)
     return parsed_list
