@@ -53,7 +53,8 @@ class Command:
 class LLI(Enum):
     ALU1 = 'alu1'
     ALU2 = 'alu2'
-    SUM = 'sum'
+    ALU_SIG_SUM = 'sum'
+    ALU_SIG_SUB = 'sub'
     WRITE_FROM_ALU = 'write_from_alu'
     WRITE_TO_BUF_REG = 'write_to_bufreg'
     WRITE_BUF_TO_REG = 'write_buf_to_reg'
@@ -68,12 +69,22 @@ def mov(line_number: int, args: List[Arg] | None) -> List[Command]:
     ]
 
 
+def sub(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is not None and len(args) == 2
+    return [
+        Command(line_number, LLI.ALU1.value, args[0]),
+        Command(line_number, LLI.ALU2.value, args[1]),
+        Command(line_number, LLI.ALU_SIG_SUB.value, None),
+        Command(line_number, LLI.WRITE_FROM_ALU.value, args[0])
+    ]
+
+
 def add(line_number: int, args: List[Arg] | None) -> List[Command]:
     assert args is not None and len(args) == 2
     return [
         Command(line_number, LLI.ALU1.value, args[0]),
         Command(line_number, LLI.ALU2.value, args[1]),
-        Command(line_number, LLI.SUM.value, None),
+        Command(line_number, LLI.ALU_SIG_SUM.value, None),
         Command(line_number, LLI.WRITE_FROM_ALU.value, args[0])
     ]
 

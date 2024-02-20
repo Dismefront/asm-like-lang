@@ -1,11 +1,11 @@
 from typing import List
-from machine import add, label
+from machine.commands import add, label, mov
 from translator import CiscCommand
 
 
 INSTRUCTIONS = {
     'add': add,
-    'mov': add,
+    'mov': mov,
     'sub': add,
     'cmp': add,
     'inc': add,
