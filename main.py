@@ -1,8 +1,8 @@
 import sys
 from typing import List
-from machine import Command
-from translator import tokenize
-from machine import generate_mc
+from machine.commands import Command
+from translator.tokenizer import tokenize
+from machine.mc import generate_mc
 from machine.data_mem import data_memory_mapper, data_memory
 
 if __name__ == "__main__":

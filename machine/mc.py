@@ -1,6 +1,6 @@
 from typing import List
 from machine.commands import add, label, mov
-from translator import CiscCommand
+from translator.tokenizer import CiscCommand
 
 
 INSTRUCTIONS = {

@@ -2,7 +2,7 @@ from enum import Enum
 from typing import List
 from machine.data_mem import put_int, put_str, alloc_buffer
 
-from translator import Arg
+from translator.tokenizer import Arg
 
 
 class Label:
