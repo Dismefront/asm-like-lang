@@ -61,6 +61,17 @@ class LLI(Enum):
     LABEL = 'label'
 
 
+def cmp(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is not None and len(args) == 2
+    eax = Arg('eax')
+    return [
+        Command(line_number, LLI.ALU1.value, args[0]),
+        Command(line_number, LLI.ALU2.value, args[1]),
+        Command(line_number, LLI.ALU_SIG_SUB.value, None),
+        Command(line_number, LLI.WRITE_FROM_ALU.value, eax)
+    ]
+
+
 def mov(line_number: int, args: List[Arg] | None) -> List[Command]:
     assert args is not None and len(args) == 2
     return [
