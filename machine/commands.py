@@ -1,6 +1,6 @@
 from enum import Enum
 from typing import List
-from machine.data_mem import put_int, put_str
+from machine.data_mem import put_int, put_str, alloc_buffer
 
 from translator import Arg
 
@@ -26,7 +26,7 @@ class Label:
 
 
 class Command:
-    op_no = 1
+    op_no = 0
 
     def __init__(self,
                  line_number: int,
@@ -78,7 +78,10 @@ def label(name: str,
         assert len(args) > 1
         try:
             arg = int(args[1].name)
-            put_int(name, arg)
+            if arg <= 20:
+                alloc_buffer(name, arg)
+            else:
+                put_int(name, arg)
         except ValueError:
             arg = ' '.join([x.name for x in args[1::]]).strip('\"')
             put_str(name, arg)
