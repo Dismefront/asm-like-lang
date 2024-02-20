@@ -1,5 +1,6 @@
 from typing import List
-from machine.commands import add, label, mov, sub
+from machine.commands import \
+    add, label, mov, sub, cmp
 from translator.tokenizer import CiscCommand
 
 
@@ -7,7 +8,7 @@ INSTRUCTIONS = {
     'add': add,
     'mov': mov,
     'sub': sub,
-    'cmp': add,
+    'cmp': cmp,
     'inc': add,
     'dec': add,
     'jmp': add,

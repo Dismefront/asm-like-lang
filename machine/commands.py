@@ -55,10 +55,26 @@ class LLI(Enum):
     ALU2 = 'alu2'
     ALU_SIG_SUM = 'sum'
     ALU_SIG_SUB = 'sub'
+    INC = 'inc'
+    DEC = 'dec'
     WRITE_FROM_ALU = 'write_from_alu'
     WRITE_TO_BUF_REG = 'write_to_bufreg'
     WRITE_BUF_TO_REG = 'write_buf_to_reg'
     LABEL = 'label'
+
+
+def dec(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is not None and len(args) == 1
+    return [
+        Command(line_number, LLI.DEC.value, args[0])
+    ]
+
+
+def inc(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is not None and len(args) == 1
+    return [
+        Command(line_number, LLI.INC.value, args[0])
+    ]
 
 
 def cmp(line_number: int, args: List[Arg] | None) -> List[Command]:
