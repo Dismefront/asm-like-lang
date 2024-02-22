@@ -9,6 +9,9 @@ from machine.data_mem import data_memory, data_memory_mapper as dmm
 from machine.inst_mem import label_mapper
 
 
+debug: TextIOWrapper
+
+
 def set_debug_output(file: TextIOWrapper) -> None:
     global debug
     debug = file
@@ -45,6 +48,13 @@ def set_devices(input_src: str, output_src: str) -> None:
     exec('input_buffer=' + input_device.readline(), globals())
 
 
+def close_streams() -> None:
+    global input_device, output_device
+    assert input_device is not None and output_device is not None
+    input_device.close()
+    output_device.close()
+
+
 def parse_lang(exp: str) -> str:
     pattern = r'\b(?!eax|ebx|ecx|edx|esp|eip)[a-zA-Z0-9]+'
     matches = re.findall(pattern, exp)
@@ -60,6 +70,7 @@ def parse_lang(exp: str) -> str:
 
 def handle_next() -> None:
     global eip, eax, ebx, ecx, edx, eip, tmp
+    global debug
     global alu_res, tick, interrupted_state
     tick += 1
     if interrupted_state is True:
@@ -86,7 +97,6 @@ def handle_next() -> None:
             alu_res = mod_signal()
         case LLI.I_INT.value:
             interrupted_state = True
-            print("asfasdf")
         case LLI.WRITE_TO_BUF_REG.value:
             assert command.arg is not None
             var = 'edx=' + parse_lang(command.arg.name)

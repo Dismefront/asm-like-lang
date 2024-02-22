@@ -1,0 +1,185 @@
+[
+  {
+    "line_number": 1,
+    "optype": "label",
+    "operation_number": 0,
+    "arg": {
+      "name": "start",
+      "immed": true,
+      "value": null
+    }
+  },
+  {
+    "line_number": 3,
+    "optype": "label",
+    "operation_number": 1,
+    "arg": {
+      "name": "loop",
+      "immed": true,
+      "value": null
+    }
+  },
+  {
+    "line_number": 4,
+    "optype": "input_interrupt",
+    "operation_number": 2,
+    "arg": null
+  },
+  {
+    "line_number": 5,
+    "optype": "write_to_bufreg",
+    "operation_number": 3,
+    "arg": {
+      "name": "eax"
+    }
+  },
+  {
+    "line_number": 5,
+    "optype": "write_buf_to_reg",
+    "operation_number": 4,
+    "arg": {
+      "name": "ebx"
+    }
+  },
+  {
+    "line_number": 6,
+    "optype": "alu1",
+    "operation_number": 5,
+    "arg": {
+      "name": "eax"
+    }
+  },
+  {
+    "line_number": 6,
+    "optype": "alu2",
+    "operation_number": 6,
+    "arg": {
+      "name": "1000"
+    }
+  },
+  {
+    "line_number": 6,
+    "optype": "sub",
+    "operation_number": 7,
+    "arg": null
+  },
+  {
+    "line_number": 6,
+    "optype": "write_from_alu",
+    "operation_number": 8,
+    "arg": {
+      "name": "eax"
+    }
+  },
+  {
+    "line_number": 7,
+    "optype": "jz",
+    "operation_number": 9,
+    "arg": {
+      "name": "end"
+    }
+  },
+  {
+    "line_number": 8,
+    "optype": "write_to_bufreg",
+    "operation_number": 10,
+    "arg": {
+      "name": "ebx"
+    }
+  },
+  {
+    "line_number": 8,
+    "optype": "write_buf_to_reg",
+    "operation_number": 11,
+    "arg": {
+      "name": "eax"
+    }
+  },
+  {
+    "line_number": 9,
+    "optype": "out",
+    "operation_number": 12,
+    "arg": null
+  },
+  {
+    "line_number": 10,
+    "optype": "jnz",
+    "operation_number": 13,
+    "arg": {
+      "name": "loop"
+    }
+  },
+  {
+    "line_number": 12,
+    "optype": "label",
+    "operation_number": 14,
+    "arg": {
+      "name": "end",
+      "immed": true,
+      "value": null
+    }
+  }
+]
+[LOG] eax=0; ebx=0; ecx=0; edx=0; eip=1; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=0; ecx=0; edx=0; eip=2; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=0; ecx=0; edx=0; eip=3; esp=100000;	INSTRUCTION: input_interrupt
+[LOG] eax=e; ebx=0; ecx=0; edx=e; eip=4; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=e; ebx=e; ecx=0; edx=e; eip=5; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=e; ebx=e; ecx=0; edx=e; eip=6; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=e; ebx=e; ecx=0; edx=e; eip=7; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=e; ebx=e; ecx=0; edx=e; eip=8; esp=100000;	INSTRUCTION: sub
+[LOG] eax=-899; ebx=e; ecx=0; edx=e; eip=9; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=-899; ebx=e; ecx=0; edx=e; eip=10; esp=100000;	INSTRUCTION: jz
+[LOG] eax=-899; ebx=e; ecx=0; edx=e; eip=11; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=e; ebx=e; ecx=0; edx=e; eip=12; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=e; ebx=e; ecx=0; edx=e; eip=13; esp=100000;	INSTRUCTION: out
+[LOG] eax=e; ebx=e; ecx=0; edx=e; eip=1; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=e; ebx=e; ecx=0; edx=e; eip=2; esp=100000;	INSTRUCTION: label
+[LOG] eax=e; ebx=e; ecx=0; edx=e; eip=3; esp=100000;	INSTRUCTION: input_interrupt
+[LOG] eax=r; ebx=e; ecx=0; edx=r; eip=4; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=r; ebx=r; ecx=0; edx=r; eip=5; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=r; ebx=r; ecx=0; edx=r; eip=6; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=r; ebx=r; ecx=0; edx=r; eip=7; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=r; ebx=r; ecx=0; edx=r; eip=8; esp=100000;	INSTRUCTION: sub
+[LOG] eax=-886; ebx=r; ecx=0; edx=r; eip=9; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=-886; ebx=r; ecx=0; edx=r; eip=10; esp=100000;	INSTRUCTION: jz
+[LOG] eax=-886; ebx=r; ecx=0; edx=r; eip=11; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=r; ebx=r; ecx=0; edx=r; eip=12; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=r; ebx=r; ecx=0; edx=r; eip=13; esp=100000;	INSTRUCTION: out
+[LOG] eax=r; ebx=r; ecx=0; edx=r; eip=1; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=r; ebx=r; ecx=0; edx=r; eip=2; esp=100000;	INSTRUCTION: label
+[LOG] eax=r; ebx=r; ecx=0; edx=r; eip=3; esp=100000;	INSTRUCTION: input_interrupt
+[LOG] eax=i; ebx=r; ecx=0; edx=i; eip=4; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=i; ebx=i; ecx=0; edx=i; eip=5; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=i; ebx=i; ecx=0; edx=i; eip=6; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=i; ebx=i; ecx=0; edx=i; eip=7; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=i; ebx=i; ecx=0; edx=i; eip=8; esp=100000;	INSTRUCTION: sub
+[LOG] eax=-895; ebx=i; ecx=0; edx=i; eip=9; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=-895; ebx=i; ecx=0; edx=i; eip=10; esp=100000;	INSTRUCTION: jz
+[LOG] eax=-895; ebx=i; ecx=0; edx=i; eip=11; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=i; ebx=i; ecx=0; edx=i; eip=12; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=i; ebx=i; ecx=0; edx=i; eip=13; esp=100000;	INSTRUCTION: out
+[LOG] eax=i; ebx=i; ecx=0; edx=i; eip=1; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=i; ebx=i; ecx=0; edx=i; eip=2; esp=100000;	INSTRUCTION: label
+[LOG] eax=i; ebx=i; ecx=0; edx=i; eip=3; esp=100000;	INSTRUCTION: input_interrupt
+[LOG] eax=c; ebx=i; ecx=0; edx=c; eip=4; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=c; ebx=c; ecx=0; edx=c; eip=5; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=c; ebx=c; ecx=0; edx=c; eip=6; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=c; ebx=c; ecx=0; edx=c; eip=7; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=c; ebx=c; ecx=0; edx=c; eip=8; esp=100000;	INSTRUCTION: sub
+[LOG] eax=-901; ebx=c; ecx=0; edx=c; eip=9; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=-901; ebx=c; ecx=0; edx=c; eip=10; esp=100000;	INSTRUCTION: jz
+[LOG] eax=-901; ebx=c; ecx=0; edx=c; eip=11; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=c; ebx=c; ecx=0; edx=c; eip=12; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=c; ebx=c; ecx=0; edx=c; eip=13; esp=100000;	INSTRUCTION: out
+[LOG] eax=c; ebx=c; ecx=0; edx=c; eip=1; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=c; ebx=c; ecx=0; edx=c; eip=2; esp=100000;	INSTRUCTION: label
+[LOG] eax=c; ebx=c; ecx=0; edx=c; eip=3; esp=100000;	INSTRUCTION: input_interrupt
+[LOG] eax=1000; ebx=c; ecx=0; edx=1000; eip=4; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=1000; ebx=1000; ecx=0; edx=1000; eip=5; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=1000; ebx=1000; ecx=0; edx=1000; eip=6; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=1000; ebx=1000; ecx=0; edx=1000; eip=7; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=1000; ebx=1000; ecx=0; edx=1000; eip=8; esp=100000;	INSTRUCTION: sub
+[LOG] eax=0; ebx=1000; ecx=0; edx=1000; eip=9; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=1000; ecx=0; edx=1000; eip=14; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=1000; ecx=0; edx=1000; eip=15; esp=100000;	INSTRUCTION: label
