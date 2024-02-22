@@ -60,7 +60,7 @@ class LLI(Enum):
     JZ = 'jz'
     JNZ = 'jnz'
     JMP = 'jmp'
-    ALU_SIG_MOD2 = 'mod2'
+    ALU_SIG_MOD = 'mod'
     WRITE_FROM_ALU = 'write_from_alu'
     WRITE_TO_BUF_REG = 'write_to_bufreg'
     WRITE_BUF_TO_REG = 'write_buf_to_reg'
@@ -79,7 +79,7 @@ def cmd_mod2(line_number: int, args: List[Arg] | None) -> List[Command]:
     return [
         Command(line_number, LLI.ALU1.value, args[0]),
         Command(line_number, LLI.ALU2.value, args[1]),
-        Command(line_number, LLI.ALU_SIG_MOD2.value, None),
+        Command(line_number, LLI.ALU_SIG_MOD.value, None),
         Command(line_number, LLI.WRITE_FROM_ALU.value, eax)
     ]
 
