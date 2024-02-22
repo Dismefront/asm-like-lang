@@ -35,12 +35,12 @@ def put_str(name: str, value: str) -> None:
     global mem_addr
     varsize = len(value)
     data_memory[mem_addr] = varsize
-    mem_addr += 1
     data_memory_mapper[name] = (
         mem_addr,
         varsize,
         value
     )
+    mem_addr += 1
     j = 0
     for i in range(mem_addr, mem_addr + varsize):
         data_memory[i] = value[j]

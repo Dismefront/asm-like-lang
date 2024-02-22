@@ -115,8 +115,7 @@ math_args ::= reg_id ',' reg_id
 
 
 branch_op ::= branch_opcode branch_args
-branch_opcode ::= 'jmp'
-                | 'jz'
+branch_opcode ::= 'jz'
                 | 'jnz'
 branch_args ::= label_ref
 

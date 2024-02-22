@@ -17,4 +17,4 @@ if __name__ == "__main__":
     import json
     print(json.dumps([x.toJSON() for x in mc], indent=2))
     print([(x, data_memory_mapper[x]) for x in list(data_memory_mapper)])
-    print(data_memory[:20])
+    print(data_memory[:30])

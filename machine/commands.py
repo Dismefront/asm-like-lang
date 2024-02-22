@@ -57,10 +57,70 @@ class LLI(Enum):
     ALU_SIG_SUB = 'sub'
     INC = 'inc'
     DEC = 'dec'
+    JZ = 'jz'
+    JNZ = 'jnz'
+    JMP = 'jmp'
     WRITE_FROM_ALU = 'write_from_alu'
     WRITE_TO_BUF_REG = 'write_to_bufreg'
     WRITE_BUF_TO_REG = 'write_buf_to_reg'
     LABEL = 'label'
+    I_INT = 'input_interrupt'
+    STORE_SYMB = 'store_symbol'
+    OUT = 'out'
+    PUSH = 'push'
+    POP = 'pop'
+
+
+def jmp(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is not None and len(args) == 1
+    return [
+        Command(line_number, LLI.JMP.value, args[0]),
+    ]
+
+
+# def ret(line_number: int, args: List[Arg] | None) -> List[Command]:
+#     assert args is not None and len(args) == 1
+#     return [
+#         Command(line_number, LLI.POP.value, None),
+#         Command(line_number, LLI.JMP.value, args[0]),
+#     ]
+
+
+# def call_lb(line_number: int, args: List[Arg] | None) -> List[Command]:
+#     assert args is not None and len(args) == 1
+#     return [
+#         Command(line_number, LLI.PUSH.value, None),
+#         Command(line_number, LLI.JMP.value, args[0]),
+#     ]
+
+
+def io_out(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is not None and len(args) == 1
+    return [
+        Command(line_number, LLI.OUT.value, None)
+    ]
+
+
+def io_in(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is not None and len(args) == 1
+    return [
+        Command(line_number, LLI.I_INT.value, None),
+        Command(line_number, LLI.STORE_SYMB.value, args[0])
+    ]
+
+
+def jnz(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is not None and len(args) == 1
+    return [
+        Command(line_number, LLI.JNZ.value, args[0])
+    ]
+
+
+def jz(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is not None and len(args) == 1
+    return [
+        Command(line_number, LLI.JZ.value, args[0])
+    ]
 
 
 def dec(line_number: int, args: List[Arg] | None) -> List[Command]:
@@ -77,7 +137,7 @@ def inc(line_number: int, args: List[Arg] | None) -> List[Command]:
     ]
 
 
-def cmp(line_number: int, args: List[Arg] | None) -> List[Command]:
+def compare(line_number: int, args: List[Arg] | None) -> List[Command]:
     assert args is not None and len(args) == 2
     eax = Arg('eax')
     return [
