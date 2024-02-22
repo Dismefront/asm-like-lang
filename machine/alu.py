@@ -26,3 +26,8 @@ def sub_signal() -> int:
 def add_signal() -> int:
     global first_entry, second_entry
     return first_entry + second_entry
+
+
+def mod_signal() -> int:
+    global first_entry, second_entry
+    return first_entry % second_entry

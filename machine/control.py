@@ -2,6 +2,7 @@ from io import TextIOWrapper
 import re
 from typing import List, Tuple
 from machine.alu import put_first_entry, put_second_entry, sub_signal
+from machine.alu import mod_signal, add_signal
 from machine.commands import Command, LLI
 from machine.inst_mem import get_instruction
 from machine.data_mem import data_memory, data_memory_mapper as dmm
@@ -67,6 +68,16 @@ def handle_next() -> None:
     command: Command = get_instruction(eip)
     eip += 1
     match command.optype:
+        case LLI.JMP.value:
+            assert command.arg is not None
+            eip = label_mapper[command.arg.name]
+        case LLI.JN.value:
+            assert command.arg is not None
+            if int(eax) < 0:
+                eip = label_mapper[command.arg.name]
+        case LLI.ALU_SIG_MOD.value:
+            assert command.arg is None
+            alu_res = mod_signal()
         case LLI.I_INT.value:
             interrupted_state = True
             print("asfasdf")
@@ -93,6 +104,8 @@ def handle_next() -> None:
             put_second_entry(str(tmp))
         case LLI.ALU_SIG_SUB.value:
             alu_res = sub_signal()
+        case LLI.ALU_SIG_SUM.value:
+            alu_res = add_signal()
         case LLI.WRITE_FROM_ALU.value:
             assert command.arg is not None
             var = parse_lang(command.arg.name) + '=' + str(alu_res)
@@ -110,6 +123,7 @@ def handle_next() -> None:
             var = parse_lang(command.arg.name)
             var = var + '=' + var + '+1'
             exec(var, globals())
+    print('ebx, ecx', ebx, ecx)
 
 
 def start() -> None:
