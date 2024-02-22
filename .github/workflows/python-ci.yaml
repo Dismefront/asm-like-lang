@@ -29,3 +29,27 @@ jobs:
 
       - name: Run mypy
         run: mypy .
+  
+  tests:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.12
+
+      - name: hello world
+        run: python test_hw.py
+
+      - name: cat
+        run: python test_cat.py
+
+      - name: what is your name
+        run: python test_wiym.py
+
+      - name: prob2
+        run: python test_prob2.py
