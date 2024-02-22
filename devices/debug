@@ -1,0 +1,1279 @@
+[LOG] eax=0; ebx=0; ecx=0; edx=0; eip=1; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=0; ecx=0; edx=1; eip=2; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=0; ebx=1; ecx=0; edx=1; eip=3; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=0; ebx=1; ecx=0; edx=2; eip=4; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=0; ebx=1; ecx=2; edx=2; eip=5; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=0; ebx=1; ecx=2; edx=2; eip=6; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=0; ebx=1; ecx=2; edx=2; eip=7; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=0; ebx=1; ecx=2; edx=2; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=1; ecx=2; edx=2; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=1; ecx=2; edx=2; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=1; ecx=2; edx=2; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=3; ecx=2; edx=2; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=3; ecx=2; edx=2; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=3; ecx=2; edx=2; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=3; ecx=2; edx=2; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=3; ecx=2; edx=2; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=3; ecx=2; edx=2; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=3; ecx=2; edx=2; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=3; ecx=2; edx=2; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=3; ecx=2; edx=2; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=2; ebx=3; ecx=2; edx=2; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=2; ebx=3; ecx=2; edx=3; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=2; ebx=3; ecx=3; edx=3; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=2; ebx=3; ecx=3; edx=2; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=2; ebx=2; ecx=3; edx=2; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=2; ebx=2; ecx=3; edx=2; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=2; ebx=2; ecx=3; edx=2; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=2; ebx=2; ecx=3; edx=2; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=2; ebx=2; ecx=3; edx=2; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=2; ebx=2; ecx=3; edx=2; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999998; ebx=2; ecx=3; edx=2; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999998; ebx=2; ecx=3; edx=2; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999998; ebx=2; ecx=3; edx=2; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999998; ebx=2; ecx=3; edx=2; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999998; ebx=2; ecx=3; edx=2; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999998; ebx=2; ecx=3; edx=2; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999998; ebx=2; ecx=3; edx=2; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999998; ebx=2; ecx=3; edx=2; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999998; ebx=5; ecx=3; edx=2; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999998; ebx=5; ecx=3; edx=2; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999998; ebx=5; ecx=3; edx=2; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999998; ebx=5; ecx=3; edx=2; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=5; ecx=3; edx=2; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=5; ecx=3; edx=2; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=5; ecx=3; edx=2; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=5; ecx=3; edx=2; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=5; ecx=3; edx=3; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=3; ebx=5; ecx=3; edx=3; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=3; ebx=5; ecx=3; edx=5; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=3; ebx=5; ecx=5; edx=5; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=3; ebx=5; ecx=5; edx=3; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=3; ebx=3; ecx=5; edx=3; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=3; ebx=3; ecx=5; edx=3; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3; ebx=3; ecx=5; edx=3; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=3; ebx=3; ecx=5; edx=3; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3; ebx=3; ecx=5; edx=3; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3; ebx=3; ecx=5; edx=3; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999997; ebx=3; ecx=5; edx=3; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999997; ebx=3; ecx=5; edx=3; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999997; ebx=3; ecx=5; edx=3; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999997; ebx=3; ecx=5; edx=3; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999997; ebx=3; ecx=5; edx=3; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999997; ebx=3; ecx=5; edx=3; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999997; ebx=3; ecx=5; edx=3; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999997; ebx=3; ecx=5; edx=3; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999997; ebx=8; ecx=5; edx=3; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999997; ebx=8; ecx=5; edx=3; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999997; ebx=8; ecx=5; edx=3; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999997; ebx=8; ecx=5; edx=3; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=0; ebx=8; ecx=5; edx=3; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=8; ecx=5; edx=3; eip=26; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=8; ecx=5; edx=3; eip=27; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=8; ecx=5; edx=3; eip=28; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=8; ecx=5; edx=3; eip=29; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=8; ecx=5; edx=3; eip=30; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=8; ecx=5; edx=3; eip=31; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=8; ecx=5; edx=3; eip=32; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=0; ebx=8; ecx=5; edx=3; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=8; ecx=5; edx=5; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=5; ebx=8; ecx=5; edx=5; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=5; ebx=8; ecx=5; edx=8; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=5; ebx=8; ecx=8; edx=8; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=5; ebx=8; ecx=8; edx=5; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=5; ebx=5; ecx=8; edx=5; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=5; ebx=5; ecx=8; edx=5; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=5; ebx=5; ecx=8; edx=5; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=5; ebx=5; ecx=8; edx=5; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=5; ebx=5; ecx=8; edx=5; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=5; ebx=5; ecx=8; edx=5; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999995; ebx=5; ecx=8; edx=5; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999995; ebx=5; ecx=8; edx=5; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999995; ebx=5; ecx=8; edx=5; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999995; ebx=5; ecx=8; edx=5; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999995; ebx=5; ecx=8; edx=5; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999995; ebx=5; ecx=8; edx=5; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999995; ebx=5; ecx=8; edx=5; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999995; ebx=5; ecx=8; edx=5; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999995; ebx=13; ecx=8; edx=5; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999995; ebx=13; ecx=8; edx=5; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999995; ebx=13; ecx=8; edx=5; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999995; ebx=13; ecx=8; edx=5; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=13; ecx=8; edx=5; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=13; ecx=8; edx=5; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=13; ecx=8; edx=5; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=13; ecx=8; edx=5; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=13; ecx=8; edx=8; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=8; ebx=13; ecx=8; edx=8; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=8; ebx=13; ecx=8; edx=13; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=8; ebx=13; ecx=13; edx=13; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=8; ebx=13; ecx=13; edx=8; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=8; ebx=8; ecx=13; edx=8; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=8; ebx=8; ecx=13; edx=8; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=8; ebx=8; ecx=13; edx=8; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=8; ebx=8; ecx=13; edx=8; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=8; ebx=8; ecx=13; edx=8; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=8; ebx=8; ecx=13; edx=8; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999992; ebx=8; ecx=13; edx=8; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999992; ebx=8; ecx=13; edx=8; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999992; ebx=8; ecx=13; edx=8; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999992; ebx=8; ecx=13; edx=8; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999992; ebx=8; ecx=13; edx=8; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999992; ebx=8; ecx=13; edx=8; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999992; ebx=8; ecx=13; edx=8; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999992; ebx=8; ecx=13; edx=8; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999992; ebx=21; ecx=13; edx=8; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999992; ebx=21; ecx=13; edx=8; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999992; ebx=21; ecx=13; edx=8; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999992; ebx=21; ecx=13; edx=8; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=21; ecx=13; edx=8; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=21; ecx=13; edx=8; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=21; ecx=13; edx=8; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=21; ecx=13; edx=8; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=21; ecx=13; edx=13; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=13; ebx=21; ecx=13; edx=13; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=13; ebx=21; ecx=13; edx=21; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=13; ebx=21; ecx=21; edx=21; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=13; ebx=21; ecx=21; edx=13; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=13; ebx=13; ecx=21; edx=13; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=13; ebx=13; ecx=21; edx=13; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=13; ebx=13; ecx=21; edx=13; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=13; ebx=13; ecx=21; edx=13; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=13; ebx=13; ecx=21; edx=13; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=13; ebx=13; ecx=21; edx=13; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999987; ebx=13; ecx=21; edx=13; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999987; ebx=13; ecx=21; edx=13; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999987; ebx=13; ecx=21; edx=13; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999987; ebx=13; ecx=21; edx=13; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999987; ebx=13; ecx=21; edx=13; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999987; ebx=13; ecx=21; edx=13; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999987; ebx=13; ecx=21; edx=13; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999987; ebx=13; ecx=21; edx=13; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999987; ebx=34; ecx=21; edx=13; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999987; ebx=34; ecx=21; edx=13; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999987; ebx=34; ecx=21; edx=13; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999987; ebx=34; ecx=21; edx=13; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=0; ebx=34; ecx=21; edx=13; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=34; ecx=21; edx=13; eip=26; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=34; ecx=21; edx=13; eip=27; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=34; ecx=21; edx=13; eip=28; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=34; ecx=21; edx=13; eip=29; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=34; ecx=21; edx=13; eip=30; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=34; ecx=21; edx=13; eip=31; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=34; ecx=21; edx=13; eip=32; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=0; ebx=34; ecx=21; edx=13; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=34; ecx=21; edx=21; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=21; ebx=34; ecx=21; edx=21; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=21; ebx=34; ecx=21; edx=34; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=21; ebx=34; ecx=34; edx=34; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=21; ebx=34; ecx=34; edx=21; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=21; ebx=21; ecx=34; edx=21; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=21; ebx=21; ecx=34; edx=21; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=21; ebx=21; ecx=34; edx=21; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=21; ebx=21; ecx=34; edx=21; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=21; ebx=21; ecx=34; edx=21; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=21; ebx=21; ecx=34; edx=21; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999979; ebx=21; ecx=34; edx=21; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999979; ebx=21; ecx=34; edx=21; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999979; ebx=21; ecx=34; edx=21; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999979; ebx=21; ecx=34; edx=21; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999979; ebx=21; ecx=34; edx=21; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999979; ebx=21; ecx=34; edx=21; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999979; ebx=21; ecx=34; edx=21; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999979; ebx=21; ecx=34; edx=21; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999979; ebx=55; ecx=34; edx=21; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999979; ebx=55; ecx=34; edx=21; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999979; ebx=55; ecx=34; edx=21; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999979; ebx=55; ecx=34; edx=21; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=55; ecx=34; edx=21; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=55; ecx=34; edx=21; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=55; ecx=34; edx=21; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=55; ecx=34; edx=21; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=55; ecx=34; edx=34; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=34; ebx=55; ecx=34; edx=34; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=34; ebx=55; ecx=34; edx=55; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=34; ebx=55; ecx=55; edx=55; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=34; ebx=55; ecx=55; edx=34; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=34; ebx=34; ecx=55; edx=34; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=34; ebx=34; ecx=55; edx=34; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=34; ebx=34; ecx=55; edx=34; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=34; ebx=34; ecx=55; edx=34; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=34; ebx=34; ecx=55; edx=34; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=34; ebx=34; ecx=55; edx=34; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999966; ebx=34; ecx=55; edx=34; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999966; ebx=34; ecx=55; edx=34; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999966; ebx=34; ecx=55; edx=34; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999966; ebx=34; ecx=55; edx=34; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999966; ebx=34; ecx=55; edx=34; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999966; ebx=34; ecx=55; edx=34; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999966; ebx=34; ecx=55; edx=34; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999966; ebx=34; ecx=55; edx=34; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999966; ebx=89; ecx=55; edx=34; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999966; ebx=89; ecx=55; edx=34; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999966; ebx=89; ecx=55; edx=34; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999966; ebx=89; ecx=55; edx=34; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=89; ecx=55; edx=34; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=89; ecx=55; edx=34; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=89; ecx=55; edx=34; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=89; ecx=55; edx=34; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=89; ecx=55; edx=55; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=55; ebx=89; ecx=55; edx=55; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=55; ebx=89; ecx=55; edx=89; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=55; ebx=89; ecx=89; edx=89; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=55; ebx=89; ecx=89; edx=55; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=55; ebx=55; ecx=89; edx=55; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=55; ebx=55; ecx=89; edx=55; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=55; ebx=55; ecx=89; edx=55; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=55; ebx=55; ecx=89; edx=55; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=55; ebx=55; ecx=89; edx=55; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=55; ebx=55; ecx=89; edx=55; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999945; ebx=55; ecx=89; edx=55; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999945; ebx=55; ecx=89; edx=55; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999945; ebx=55; ecx=89; edx=55; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999945; ebx=55; ecx=89; edx=55; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999945; ebx=55; ecx=89; edx=55; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999945; ebx=55; ecx=89; edx=55; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999945; ebx=55; ecx=89; edx=55; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999945; ebx=55; ecx=89; edx=55; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999945; ebx=144; ecx=89; edx=55; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999945; ebx=144; ecx=89; edx=55; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999945; ebx=144; ecx=89; edx=55; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999945; ebx=144; ecx=89; edx=55; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=0; ebx=144; ecx=89; edx=55; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=144; ecx=89; edx=55; eip=26; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=144; ecx=89; edx=55; eip=27; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=144; ecx=89; edx=55; eip=28; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=144; ecx=89; edx=55; eip=29; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=144; ecx=89; edx=55; eip=30; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=144; ecx=89; edx=55; eip=31; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=144; ecx=89; edx=55; eip=32; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=0; ebx=144; ecx=89; edx=55; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=144; ecx=89; edx=89; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=89; ebx=144; ecx=89; edx=89; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=89; ebx=144; ecx=89; edx=144; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=89; ebx=144; ecx=144; edx=144; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=89; ebx=144; ecx=144; edx=89; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=89; ebx=89; ecx=144; edx=89; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=89; ebx=89; ecx=144; edx=89; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=89; ebx=89; ecx=144; edx=89; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=89; ebx=89; ecx=144; edx=89; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=89; ebx=89; ecx=144; edx=89; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=89; ebx=89; ecx=144; edx=89; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999911; ebx=89; ecx=144; edx=89; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999911; ebx=89; ecx=144; edx=89; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999911; ebx=89; ecx=144; edx=89; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999911; ebx=89; ecx=144; edx=89; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999911; ebx=89; ecx=144; edx=89; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999911; ebx=89; ecx=144; edx=89; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999911; ebx=89; ecx=144; edx=89; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999911; ebx=89; ecx=144; edx=89; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999911; ebx=233; ecx=144; edx=89; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999911; ebx=233; ecx=144; edx=89; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999911; ebx=233; ecx=144; edx=89; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999911; ebx=233; ecx=144; edx=89; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=233; ecx=144; edx=89; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=233; ecx=144; edx=89; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=233; ecx=144; edx=89; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=233; ecx=144; edx=89; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=233; ecx=144; edx=144; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=144; ebx=233; ecx=144; edx=144; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=144; ebx=233; ecx=144; edx=233; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=144; ebx=233; ecx=233; edx=233; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=144; ebx=233; ecx=233; edx=144; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=144; ebx=144; ecx=233; edx=144; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=144; ebx=144; ecx=233; edx=144; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=144; ebx=144; ecx=233; edx=144; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=144; ebx=144; ecx=233; edx=144; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=144; ebx=144; ecx=233; edx=144; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=144; ebx=144; ecx=233; edx=144; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999856; ebx=144; ecx=233; edx=144; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999856; ebx=144; ecx=233; edx=144; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999856; ebx=144; ecx=233; edx=144; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999856; ebx=144; ecx=233; edx=144; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999856; ebx=144; ecx=233; edx=144; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999856; ebx=144; ecx=233; edx=144; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999856; ebx=144; ecx=233; edx=144; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999856; ebx=144; ecx=233; edx=144; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999856; ebx=377; ecx=233; edx=144; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999856; ebx=377; ecx=233; edx=144; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999856; ebx=377; ecx=233; edx=144; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999856; ebx=377; ecx=233; edx=144; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=377; ecx=233; edx=144; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=377; ecx=233; edx=144; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=377; ecx=233; edx=144; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=377; ecx=233; edx=144; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=377; ecx=233; edx=233; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=233; ebx=377; ecx=233; edx=233; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=233; ebx=377; ecx=233; edx=377; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=233; ebx=377; ecx=377; edx=377; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=233; ebx=377; ecx=377; edx=233; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=233; ebx=233; ecx=377; edx=233; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=233; ebx=233; ecx=377; edx=233; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=233; ebx=233; ecx=377; edx=233; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=233; ebx=233; ecx=377; edx=233; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=233; ebx=233; ecx=377; edx=233; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=233; ebx=233; ecx=377; edx=233; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999767; ebx=233; ecx=377; edx=233; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999767; ebx=233; ecx=377; edx=233; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999767; ebx=233; ecx=377; edx=233; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999767; ebx=233; ecx=377; edx=233; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999767; ebx=233; ecx=377; edx=233; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999767; ebx=233; ecx=377; edx=233; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999767; ebx=233; ecx=377; edx=233; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999767; ebx=233; ecx=377; edx=233; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999767; ebx=610; ecx=377; edx=233; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999767; ebx=610; ecx=377; edx=233; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999767; ebx=610; ecx=377; edx=233; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999767; ebx=610; ecx=377; edx=233; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=0; ebx=610; ecx=377; edx=233; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=610; ecx=377; edx=233; eip=26; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=610; ecx=377; edx=233; eip=27; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=610; ecx=377; edx=233; eip=28; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=610; ecx=377; edx=233; eip=29; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=610; ecx=377; edx=233; eip=30; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=610; ecx=377; edx=233; eip=31; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=610; ecx=377; edx=233; eip=32; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=0; ebx=610; ecx=377; edx=233; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=610; ecx=377; edx=377; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=377; ebx=610; ecx=377; edx=377; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=377; ebx=610; ecx=377; edx=610; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=377; ebx=610; ecx=610; edx=610; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=377; ebx=610; ecx=610; edx=377; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=377; ebx=377; ecx=610; edx=377; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=377; ebx=377; ecx=610; edx=377; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=377; ebx=377; ecx=610; edx=377; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=377; ebx=377; ecx=610; edx=377; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=377; ebx=377; ecx=610; edx=377; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=377; ebx=377; ecx=610; edx=377; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999623; ebx=377; ecx=610; edx=377; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999623; ebx=377; ecx=610; edx=377; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999623; ebx=377; ecx=610; edx=377; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999623; ebx=377; ecx=610; edx=377; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999623; ebx=377; ecx=610; edx=377; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999623; ebx=377; ecx=610; edx=377; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999623; ebx=377; ecx=610; edx=377; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999623; ebx=377; ecx=610; edx=377; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999623; ebx=987; ecx=610; edx=377; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999623; ebx=987; ecx=610; edx=377; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999623; ebx=987; ecx=610; edx=377; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999623; ebx=987; ecx=610; edx=377; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=987; ecx=610; edx=377; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=987; ecx=610; edx=377; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=987; ecx=610; edx=377; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=987; ecx=610; edx=377; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=987; ecx=610; edx=610; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=610; ebx=987; ecx=610; edx=610; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=610; ebx=987; ecx=610; edx=987; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=610; ebx=987; ecx=987; edx=987; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=610; ebx=987; ecx=987; edx=610; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=610; ebx=610; ecx=987; edx=610; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=610; ebx=610; ecx=987; edx=610; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=610; ebx=610; ecx=987; edx=610; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=610; ebx=610; ecx=987; edx=610; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=610; ebx=610; ecx=987; edx=610; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=610; ebx=610; ecx=987; edx=610; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999390; ebx=610; ecx=987; edx=610; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999390; ebx=610; ecx=987; edx=610; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999390; ebx=610; ecx=987; edx=610; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999390; ebx=610; ecx=987; edx=610; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999390; ebx=610; ecx=987; edx=610; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999390; ebx=610; ecx=987; edx=610; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999390; ebx=610; ecx=987; edx=610; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999390; ebx=610; ecx=987; edx=610; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999390; ebx=1597; ecx=987; edx=610; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999390; ebx=1597; ecx=987; edx=610; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999390; ebx=1597; ecx=987; edx=610; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999390; ebx=1597; ecx=987; edx=610; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=1597; ecx=987; edx=610; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=1597; ecx=987; edx=610; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=1597; ecx=987; edx=610; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=1597; ecx=987; edx=610; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=1597; ecx=987; edx=987; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=987; ebx=1597; ecx=987; edx=987; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=987; ebx=1597; ecx=987; edx=1597; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=987; ebx=1597; ecx=1597; edx=1597; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=987; ebx=1597; ecx=1597; edx=987; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=987; ebx=987; ecx=1597; edx=987; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=987; ebx=987; ecx=1597; edx=987; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=987; ebx=987; ecx=1597; edx=987; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=987; ebx=987; ecx=1597; edx=987; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=987; ebx=987; ecx=1597; edx=987; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=987; ebx=987; ecx=1597; edx=987; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3999013; ebx=987; ecx=1597; edx=987; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999013; ebx=987; ecx=1597; edx=987; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3999013; ebx=987; ecx=1597; edx=987; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3999013; ebx=987; ecx=1597; edx=987; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3999013; ebx=987; ecx=1597; edx=987; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3999013; ebx=987; ecx=1597; edx=987; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999013; ebx=987; ecx=1597; edx=987; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999013; ebx=987; ecx=1597; edx=987; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3999013; ebx=2584; ecx=1597; edx=987; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3999013; ebx=2584; ecx=1597; edx=987; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3999013; ebx=2584; ecx=1597; edx=987; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3999013; ebx=2584; ecx=1597; edx=987; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=0; ebx=2584; ecx=1597; edx=987; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=2584; ecx=1597; edx=987; eip=26; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=2584; ecx=1597; edx=987; eip=27; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=2584; ecx=1597; edx=987; eip=28; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=2584; ecx=1597; edx=987; eip=29; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=2584; ecx=1597; edx=987; eip=30; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=2584; ecx=1597; edx=987; eip=31; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=2584; ecx=1597; edx=987; eip=32; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=0; ebx=2584; ecx=1597; edx=987; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=2584; ecx=1597; edx=1597; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=1597; ebx=2584; ecx=1597; edx=1597; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=1597; ebx=2584; ecx=1597; edx=2584; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=1597; ebx=2584; ecx=2584; edx=2584; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=1597; ebx=2584; ecx=2584; edx=1597; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=1597; ebx=1597; ecx=2584; edx=1597; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=1597; ebx=1597; ecx=2584; edx=1597; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=1597; ebx=1597; ecx=2584; edx=1597; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=1597; ebx=1597; ecx=2584; edx=1597; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=1597; ebx=1597; ecx=2584; edx=1597; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=1597; ebx=1597; ecx=2584; edx=1597; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3998403; ebx=1597; ecx=2584; edx=1597; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3998403; ebx=1597; ecx=2584; edx=1597; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3998403; ebx=1597; ecx=2584; edx=1597; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3998403; ebx=1597; ecx=2584; edx=1597; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3998403; ebx=1597; ecx=2584; edx=1597; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3998403; ebx=1597; ecx=2584; edx=1597; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3998403; ebx=1597; ecx=2584; edx=1597; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3998403; ebx=1597; ecx=2584; edx=1597; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3998403; ebx=4181; ecx=2584; edx=1597; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3998403; ebx=4181; ecx=2584; edx=1597; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3998403; ebx=4181; ecx=2584; edx=1597; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3998403; ebx=4181; ecx=2584; edx=1597; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=4181; ecx=2584; edx=1597; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=4181; ecx=2584; edx=1597; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=4181; ecx=2584; edx=1597; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=4181; ecx=2584; edx=1597; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=4181; ecx=2584; edx=2584; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=2584; ebx=4181; ecx=2584; edx=2584; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=2584; ebx=4181; ecx=2584; edx=4181; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=2584; ebx=4181; ecx=4181; edx=4181; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=2584; ebx=4181; ecx=4181; edx=2584; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=2584; ebx=2584; ecx=4181; edx=2584; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=2584; ebx=2584; ecx=4181; edx=2584; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=2584; ebx=2584; ecx=4181; edx=2584; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=2584; ebx=2584; ecx=4181; edx=2584; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=2584; ebx=2584; ecx=4181; edx=2584; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=2584; ebx=2584; ecx=4181; edx=2584; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3997416; ebx=2584; ecx=4181; edx=2584; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3997416; ebx=2584; ecx=4181; edx=2584; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3997416; ebx=2584; ecx=4181; edx=2584; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3997416; ebx=2584; ecx=4181; edx=2584; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3997416; ebx=2584; ecx=4181; edx=2584; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3997416; ebx=2584; ecx=4181; edx=2584; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3997416; ebx=2584; ecx=4181; edx=2584; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3997416; ebx=2584; ecx=4181; edx=2584; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3997416; ebx=6765; ecx=4181; edx=2584; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3997416; ebx=6765; ecx=4181; edx=2584; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3997416; ebx=6765; ecx=4181; edx=2584; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3997416; ebx=6765; ecx=4181; edx=2584; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=6765; ecx=4181; edx=2584; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=6765; ecx=4181; edx=2584; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=6765; ecx=4181; edx=2584; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=6765; ecx=4181; edx=2584; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=6765; ecx=4181; edx=4181; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=4181; ebx=6765; ecx=4181; edx=4181; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=4181; ebx=6765; ecx=4181; edx=6765; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=4181; ebx=6765; ecx=6765; edx=6765; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=4181; ebx=6765; ecx=6765; edx=4181; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=4181; ebx=4181; ecx=6765; edx=4181; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=4181; ebx=4181; ecx=6765; edx=4181; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=4181; ebx=4181; ecx=6765; edx=4181; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=4181; ebx=4181; ecx=6765; edx=4181; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=4181; ebx=4181; ecx=6765; edx=4181; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=4181; ebx=4181; ecx=6765; edx=4181; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3995819; ebx=4181; ecx=6765; edx=4181; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3995819; ebx=4181; ecx=6765; edx=4181; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3995819; ebx=4181; ecx=6765; edx=4181; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3995819; ebx=4181; ecx=6765; edx=4181; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3995819; ebx=4181; ecx=6765; edx=4181; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3995819; ebx=4181; ecx=6765; edx=4181; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3995819; ebx=4181; ecx=6765; edx=4181; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3995819; ebx=4181; ecx=6765; edx=4181; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3995819; ebx=10946; ecx=6765; edx=4181; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3995819; ebx=10946; ecx=6765; edx=4181; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3995819; ebx=10946; ecx=6765; edx=4181; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3995819; ebx=10946; ecx=6765; edx=4181; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=0; ebx=10946; ecx=6765; edx=4181; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=10946; ecx=6765; edx=4181; eip=26; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=10946; ecx=6765; edx=4181; eip=27; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=10946; ecx=6765; edx=4181; eip=28; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=10946; ecx=6765; edx=4181; eip=29; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=10946; ecx=6765; edx=4181; eip=30; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=10946; ecx=6765; edx=4181; eip=31; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=10946; ecx=6765; edx=4181; eip=32; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=0; ebx=10946; ecx=6765; edx=4181; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=10946; ecx=6765; edx=6765; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=6765; ebx=10946; ecx=6765; edx=6765; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=6765; ebx=10946; ecx=6765; edx=10946; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=6765; ebx=10946; ecx=10946; edx=10946; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=6765; ebx=10946; ecx=10946; edx=6765; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=6765; ebx=6765; ecx=10946; edx=6765; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=6765; ebx=6765; ecx=10946; edx=6765; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=6765; ebx=6765; ecx=10946; edx=6765; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=6765; ebx=6765; ecx=10946; edx=6765; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=6765; ebx=6765; ecx=10946; edx=6765; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=6765; ebx=6765; ecx=10946; edx=6765; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3993235; ebx=6765; ecx=10946; edx=6765; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3993235; ebx=6765; ecx=10946; edx=6765; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3993235; ebx=6765; ecx=10946; edx=6765; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3993235; ebx=6765; ecx=10946; edx=6765; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3993235; ebx=6765; ecx=10946; edx=6765; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3993235; ebx=6765; ecx=10946; edx=6765; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3993235; ebx=6765; ecx=10946; edx=6765; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3993235; ebx=6765; ecx=10946; edx=6765; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3993235; ebx=17711; ecx=10946; edx=6765; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3993235; ebx=17711; ecx=10946; edx=6765; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3993235; ebx=17711; ecx=10946; edx=6765; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3993235; ebx=17711; ecx=10946; edx=6765; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=17711; ecx=10946; edx=6765; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=17711; ecx=10946; edx=6765; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=17711; ecx=10946; edx=6765; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=17711; ecx=10946; edx=6765; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=17711; ecx=10946; edx=10946; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=10946; ebx=17711; ecx=10946; edx=10946; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=10946; ebx=17711; ecx=10946; edx=17711; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=10946; ebx=17711; ecx=17711; edx=17711; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=10946; ebx=17711; ecx=17711; edx=10946; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=10946; ebx=10946; ecx=17711; edx=10946; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=10946; ebx=10946; ecx=17711; edx=10946; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=10946; ebx=10946; ecx=17711; edx=10946; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=10946; ebx=10946; ecx=17711; edx=10946; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=10946; ebx=10946; ecx=17711; edx=10946; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=10946; ebx=10946; ecx=17711; edx=10946; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3989054; ebx=10946; ecx=17711; edx=10946; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3989054; ebx=10946; ecx=17711; edx=10946; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3989054; ebx=10946; ecx=17711; edx=10946; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3989054; ebx=10946; ecx=17711; edx=10946; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3989054; ebx=10946; ecx=17711; edx=10946; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3989054; ebx=10946; ecx=17711; edx=10946; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3989054; ebx=10946; ecx=17711; edx=10946; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3989054; ebx=10946; ecx=17711; edx=10946; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3989054; ebx=28657; ecx=17711; edx=10946; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3989054; ebx=28657; ecx=17711; edx=10946; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3989054; ebx=28657; ecx=17711; edx=10946; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3989054; ebx=28657; ecx=17711; edx=10946; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=28657; ecx=17711; edx=10946; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=28657; ecx=17711; edx=10946; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=28657; ecx=17711; edx=10946; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=28657; ecx=17711; edx=10946; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=28657; ecx=17711; edx=17711; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=17711; ebx=28657; ecx=17711; edx=17711; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=17711; ebx=28657; ecx=17711; edx=28657; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=17711; ebx=28657; ecx=28657; edx=28657; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=17711; ebx=28657; ecx=28657; edx=17711; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=17711; ebx=17711; ecx=28657; edx=17711; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=17711; ebx=17711; ecx=28657; edx=17711; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=17711; ebx=17711; ecx=28657; edx=17711; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=17711; ebx=17711; ecx=28657; edx=17711; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=17711; ebx=17711; ecx=28657; edx=17711; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=17711; ebx=17711; ecx=28657; edx=17711; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3982289; ebx=17711; ecx=28657; edx=17711; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3982289; ebx=17711; ecx=28657; edx=17711; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3982289; ebx=17711; ecx=28657; edx=17711; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3982289; ebx=17711; ecx=28657; edx=17711; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3982289; ebx=17711; ecx=28657; edx=17711; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3982289; ebx=17711; ecx=28657; edx=17711; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3982289; ebx=17711; ecx=28657; edx=17711; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3982289; ebx=17711; ecx=28657; edx=17711; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3982289; ebx=46368; ecx=28657; edx=17711; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3982289; ebx=46368; ecx=28657; edx=17711; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3982289; ebx=46368; ecx=28657; edx=17711; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3982289; ebx=46368; ecx=28657; edx=17711; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=0; ebx=46368; ecx=28657; edx=17711; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=46368; ecx=28657; edx=17711; eip=26; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=46368; ecx=28657; edx=17711; eip=27; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=46368; ecx=28657; edx=17711; eip=28; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=46368; ecx=28657; edx=17711; eip=29; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=46368; ecx=28657; edx=17711; eip=30; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=46368; ecx=28657; edx=17711; eip=31; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=46368; ecx=28657; edx=17711; eip=32; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=0; ebx=46368; ecx=28657; edx=17711; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=46368; ecx=28657; edx=28657; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=28657; ebx=46368; ecx=28657; edx=28657; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=28657; ebx=46368; ecx=28657; edx=46368; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=28657; ebx=46368; ecx=46368; edx=46368; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=28657; ebx=46368; ecx=46368; edx=28657; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=28657; ebx=28657; ecx=46368; edx=28657; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=28657; ebx=28657; ecx=46368; edx=28657; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=28657; ebx=28657; ecx=46368; edx=28657; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=28657; ebx=28657; ecx=46368; edx=28657; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=28657; ebx=28657; ecx=46368; edx=28657; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=28657; ebx=28657; ecx=46368; edx=28657; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3971343; ebx=28657; ecx=46368; edx=28657; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3971343; ebx=28657; ecx=46368; edx=28657; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3971343; ebx=28657; ecx=46368; edx=28657; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3971343; ebx=28657; ecx=46368; edx=28657; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3971343; ebx=28657; ecx=46368; edx=28657; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3971343; ebx=28657; ecx=46368; edx=28657; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3971343; ebx=28657; ecx=46368; edx=28657; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3971343; ebx=28657; ecx=46368; edx=28657; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3971343; ebx=75025; ecx=46368; edx=28657; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3971343; ebx=75025; ecx=46368; edx=28657; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3971343; ebx=75025; ecx=46368; edx=28657; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3971343; ebx=75025; ecx=46368; edx=28657; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=75025; ecx=46368; edx=28657; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=75025; ecx=46368; edx=28657; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=75025; ecx=46368; edx=28657; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=75025; ecx=46368; edx=28657; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=75025; ecx=46368; edx=46368; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=46368; ebx=75025; ecx=46368; edx=46368; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=46368; ebx=75025; ecx=46368; edx=75025; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=46368; ebx=75025; ecx=75025; edx=75025; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=46368; ebx=75025; ecx=75025; edx=46368; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=46368; ebx=46368; ecx=75025; edx=46368; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=46368; ebx=46368; ecx=75025; edx=46368; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=46368; ebx=46368; ecx=75025; edx=46368; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=46368; ebx=46368; ecx=75025; edx=46368; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=46368; ebx=46368; ecx=75025; edx=46368; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=46368; ebx=46368; ecx=75025; edx=46368; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3953632; ebx=46368; ecx=75025; edx=46368; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3953632; ebx=46368; ecx=75025; edx=46368; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3953632; ebx=46368; ecx=75025; edx=46368; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3953632; ebx=46368; ecx=75025; edx=46368; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3953632; ebx=46368; ecx=75025; edx=46368; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3953632; ebx=46368; ecx=75025; edx=46368; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3953632; ebx=46368; ecx=75025; edx=46368; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3953632; ebx=46368; ecx=75025; edx=46368; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3953632; ebx=121393; ecx=75025; edx=46368; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3953632; ebx=121393; ecx=75025; edx=46368; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3953632; ebx=121393; ecx=75025; edx=46368; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3953632; ebx=121393; ecx=75025; edx=46368; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=121393; ecx=75025; edx=46368; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=121393; ecx=75025; edx=46368; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=121393; ecx=75025; edx=46368; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=121393; ecx=75025; edx=46368; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=121393; ecx=75025; edx=75025; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=75025; ebx=121393; ecx=75025; edx=75025; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=75025; ebx=121393; ecx=75025; edx=121393; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=75025; ebx=121393; ecx=121393; edx=121393; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=75025; ebx=121393; ecx=121393; edx=75025; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=75025; ebx=75025; ecx=121393; edx=75025; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=75025; ebx=75025; ecx=121393; edx=75025; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=75025; ebx=75025; ecx=121393; edx=75025; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=75025; ebx=75025; ecx=121393; edx=75025; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=75025; ebx=75025; ecx=121393; edx=75025; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=75025; ebx=75025; ecx=121393; edx=75025; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3924975; ebx=75025; ecx=121393; edx=75025; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3924975; ebx=75025; ecx=121393; edx=75025; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3924975; ebx=75025; ecx=121393; edx=75025; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3924975; ebx=75025; ecx=121393; edx=75025; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3924975; ebx=75025; ecx=121393; edx=75025; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3924975; ebx=75025; ecx=121393; edx=75025; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3924975; ebx=75025; ecx=121393; edx=75025; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3924975; ebx=75025; ecx=121393; edx=75025; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3924975; ebx=196418; ecx=121393; edx=75025; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3924975; ebx=196418; ecx=121393; edx=75025; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3924975; ebx=196418; ecx=121393; edx=75025; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3924975; ebx=196418; ecx=121393; edx=75025; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=0; ebx=196418; ecx=121393; edx=75025; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=196418; ecx=121393; edx=75025; eip=26; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=196418; ecx=121393; edx=75025; eip=27; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=196418; ecx=121393; edx=75025; eip=28; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=196418; ecx=121393; edx=75025; eip=29; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=196418; ecx=121393; edx=75025; eip=30; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=196418; ecx=121393; edx=75025; eip=31; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=196418; ecx=121393; edx=75025; eip=32; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=0; ebx=196418; ecx=121393; edx=75025; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=196418; ecx=121393; edx=121393; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=121393; ebx=196418; ecx=121393; edx=121393; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=121393; ebx=196418; ecx=121393; edx=196418; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=121393; ebx=196418; ecx=196418; edx=196418; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=121393; ebx=196418; ecx=196418; edx=121393; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=121393; ebx=121393; ecx=196418; edx=121393; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=121393; ebx=121393; ecx=196418; edx=121393; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=121393; ebx=121393; ecx=196418; edx=121393; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=121393; ebx=121393; ecx=196418; edx=121393; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=121393; ebx=121393; ecx=196418; edx=121393; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=121393; ebx=121393; ecx=196418; edx=121393; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3878607; ebx=121393; ecx=196418; edx=121393; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3878607; ebx=121393; ecx=196418; edx=121393; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3878607; ebx=121393; ecx=196418; edx=121393; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3878607; ebx=121393; ecx=196418; edx=121393; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3878607; ebx=121393; ecx=196418; edx=121393; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3878607; ebx=121393; ecx=196418; edx=121393; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3878607; ebx=121393; ecx=196418; edx=121393; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3878607; ebx=121393; ecx=196418; edx=121393; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3878607; ebx=317811; ecx=196418; edx=121393; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3878607; ebx=317811; ecx=196418; edx=121393; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3878607; ebx=317811; ecx=196418; edx=121393; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3878607; ebx=317811; ecx=196418; edx=121393; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=317811; ecx=196418; edx=121393; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=317811; ecx=196418; edx=121393; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=317811; ecx=196418; edx=121393; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=317811; ecx=196418; edx=121393; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=317811; ecx=196418; edx=196418; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=196418; ebx=317811; ecx=196418; edx=196418; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=196418; ebx=317811; ecx=196418; edx=317811; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=196418; ebx=317811; ecx=317811; edx=317811; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=196418; ebx=317811; ecx=317811; edx=196418; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=196418; ebx=196418; ecx=317811; edx=196418; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=196418; ebx=196418; ecx=317811; edx=196418; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=196418; ebx=196418; ecx=317811; edx=196418; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=196418; ebx=196418; ecx=317811; edx=196418; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=196418; ebx=196418; ecx=317811; edx=196418; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=196418; ebx=196418; ecx=317811; edx=196418; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3803582; ebx=196418; ecx=317811; edx=196418; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3803582; ebx=196418; ecx=317811; edx=196418; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3803582; ebx=196418; ecx=317811; edx=196418; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3803582; ebx=196418; ecx=317811; edx=196418; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3803582; ebx=196418; ecx=317811; edx=196418; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3803582; ebx=196418; ecx=317811; edx=196418; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3803582; ebx=196418; ecx=317811; edx=196418; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3803582; ebx=196418; ecx=317811; edx=196418; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3803582; ebx=514229; ecx=317811; edx=196418; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3803582; ebx=514229; ecx=317811; edx=196418; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3803582; ebx=514229; ecx=317811; edx=196418; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3803582; ebx=514229; ecx=317811; edx=196418; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=514229; ecx=317811; edx=196418; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=514229; ecx=317811; edx=196418; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=514229; ecx=317811; edx=196418; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=514229; ecx=317811; edx=196418; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=514229; ecx=317811; edx=317811; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=317811; ebx=514229; ecx=317811; edx=317811; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=317811; ebx=514229; ecx=317811; edx=514229; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=317811; ebx=514229; ecx=514229; edx=514229; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=317811; ebx=514229; ecx=514229; edx=317811; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=317811; ebx=317811; ecx=514229; edx=317811; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=317811; ebx=317811; ecx=514229; edx=317811; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=317811; ebx=317811; ecx=514229; edx=317811; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=317811; ebx=317811; ecx=514229; edx=317811; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=317811; ebx=317811; ecx=514229; edx=317811; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=317811; ebx=317811; ecx=514229; edx=317811; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3682189; ebx=317811; ecx=514229; edx=317811; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3682189; ebx=317811; ecx=514229; edx=317811; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3682189; ebx=317811; ecx=514229; edx=317811; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3682189; ebx=317811; ecx=514229; edx=317811; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3682189; ebx=317811; ecx=514229; edx=317811; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3682189; ebx=317811; ecx=514229; edx=317811; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3682189; ebx=317811; ecx=514229; edx=317811; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3682189; ebx=317811; ecx=514229; edx=317811; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3682189; ebx=832040; ecx=514229; edx=317811; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3682189; ebx=832040; ecx=514229; edx=317811; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3682189; ebx=832040; ecx=514229; edx=317811; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3682189; ebx=832040; ecx=514229; edx=317811; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=0; ebx=832040; ecx=514229; edx=317811; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=832040; ecx=514229; edx=317811; eip=26; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=832040; ecx=514229; edx=317811; eip=27; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=832040; ecx=514229; edx=317811; eip=28; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=832040; ecx=514229; edx=317811; eip=29; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=832040; ecx=514229; edx=317811; eip=30; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=832040; ecx=514229; edx=317811; eip=31; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=832040; ecx=514229; edx=317811; eip=32; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=0; ebx=832040; ecx=514229; edx=317811; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=832040; ecx=514229; edx=514229; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=514229; ebx=832040; ecx=514229; edx=514229; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=514229; ebx=832040; ecx=514229; edx=832040; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=514229; ebx=832040; ecx=832040; edx=832040; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=514229; ebx=832040; ecx=832040; edx=514229; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=514229; ebx=514229; ecx=832040; edx=514229; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=514229; ebx=514229; ecx=832040; edx=514229; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=514229; ebx=514229; ecx=832040; edx=514229; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=514229; ebx=514229; ecx=832040; edx=514229; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=514229; ebx=514229; ecx=832040; edx=514229; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=514229; ebx=514229; ecx=832040; edx=514229; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3485771; ebx=514229; ecx=832040; edx=514229; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3485771; ebx=514229; ecx=832040; edx=514229; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3485771; ebx=514229; ecx=832040; edx=514229; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3485771; ebx=514229; ecx=832040; edx=514229; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3485771; ebx=514229; ecx=832040; edx=514229; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3485771; ebx=514229; ecx=832040; edx=514229; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3485771; ebx=514229; ecx=832040; edx=514229; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3485771; ebx=514229; ecx=832040; edx=514229; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3485771; ebx=1346269; ecx=832040; edx=514229; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3485771; ebx=1346269; ecx=832040; edx=514229; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3485771; ebx=1346269; ecx=832040; edx=514229; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3485771; ebx=1346269; ecx=832040; edx=514229; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=1346269; ecx=832040; edx=514229; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=1346269; ecx=832040; edx=514229; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=1346269; ecx=832040; edx=514229; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=1346269; ecx=832040; edx=514229; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=1346269; ecx=832040; edx=832040; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=832040; ebx=1346269; ecx=832040; edx=832040; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=832040; ebx=1346269; ecx=832040; edx=1346269; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=832040; ebx=1346269; ecx=1346269; edx=1346269; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=832040; ebx=1346269; ecx=1346269; edx=832040; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=832040; ebx=832040; ecx=1346269; edx=832040; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=832040; ebx=832040; ecx=1346269; edx=832040; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=832040; ebx=832040; ecx=1346269; edx=832040; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=832040; ebx=832040; ecx=1346269; edx=832040; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=832040; ebx=832040; ecx=1346269; edx=832040; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=832040; ebx=832040; ecx=1346269; edx=832040; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=3167960; ebx=832040; ecx=1346269; edx=832040; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3167960; ebx=832040; ecx=1346269; edx=832040; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=3167960; ebx=832040; ecx=1346269; edx=832040; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=3167960; ebx=832040; ecx=1346269; edx=832040; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3167960; ebx=832040; ecx=1346269; edx=832040; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=3167960; ebx=832040; ecx=1346269; edx=832040; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3167960; ebx=832040; ecx=1346269; edx=832040; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3167960; ebx=832040; ecx=1346269; edx=832040; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=3167960; ebx=2178309; ecx=1346269; edx=832040; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=3167960; ebx=2178309; ecx=1346269; edx=832040; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3167960; ebx=2178309; ecx=1346269; edx=832040; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3167960; ebx=2178309; ecx=1346269; edx=832040; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=2178309; ecx=1346269; edx=832040; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=2178309; ecx=1346269; edx=832040; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=2178309; ecx=1346269; edx=832040; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=2178309; ecx=1346269; edx=832040; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=2178309; ecx=1346269; edx=1346269; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=1346269; ebx=2178309; ecx=1346269; edx=1346269; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=1346269; ebx=2178309; ecx=1346269; edx=2178309; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=1346269; ebx=2178309; ecx=2178309; edx=2178309; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=1346269; ebx=2178309; ecx=2178309; edx=1346269; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=1346269; ebx=1346269; ecx=2178309; edx=1346269; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=1346269; ebx=1346269; ecx=2178309; edx=1346269; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=1346269; ebx=1346269; ecx=2178309; edx=1346269; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=1346269; ebx=1346269; ecx=2178309; edx=1346269; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=1346269; ebx=1346269; ecx=2178309; edx=1346269; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=1346269; ebx=1346269; ecx=2178309; edx=1346269; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=2653731; ebx=1346269; ecx=2178309; edx=1346269; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=2653731; ebx=1346269; ecx=2178309; edx=1346269; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=2653731; ebx=1346269; ecx=2178309; edx=1346269; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=2653731; ebx=1346269; ecx=2178309; edx=1346269; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=2653731; ebx=1346269; ecx=2178309; edx=1346269; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=2653731; ebx=1346269; ecx=2178309; edx=1346269; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=2653731; ebx=1346269; ecx=2178309; edx=1346269; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=2653731; ebx=1346269; ecx=2178309; edx=1346269; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=2653731; ebx=3524578; ecx=2178309; edx=1346269; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=2653731; ebx=3524578; ecx=2178309; edx=1346269; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=2653731; ebx=3524578; ecx=2178309; edx=1346269; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=2653731; ebx=3524578; ecx=2178309; edx=1346269; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=0; ebx=3524578; ecx=2178309; edx=1346269; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=3524578; ecx=2178309; edx=1346269; eip=26; esp=100000;	INSTRUCTION: jz
+[LOG] eax=0; ebx=3524578; ecx=2178309; edx=1346269; eip=27; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=3524578; ecx=2178309; edx=1346269; eip=28; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=0; ebx=3524578; ecx=2178309; edx=1346269; eip=29; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=0; ebx=3524578; ecx=2178309; edx=1346269; eip=30; esp=100000;	INSTRUCTION: sum
+[LOG] eax=0; ebx=3524578; ecx=2178309; edx=1346269; eip=31; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=0; ebx=3524578; ecx=2178309; edx=1346269; eip=32; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=0; ebx=3524578; ecx=2178309; edx=1346269; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=0; ebx=3524578; ecx=2178309; edx=2178309; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=2178309; ebx=3524578; ecx=2178309; edx=2178309; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=2178309; ebx=3524578; ecx=2178309; edx=3524578; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=2178309; ebx=3524578; ecx=3524578; edx=3524578; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=2178309; ebx=3524578; ecx=3524578; edx=2178309; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=2178309; ebx=2178309; ecx=3524578; edx=2178309; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=2178309; ebx=2178309; ecx=3524578; edx=2178309; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=2178309; ebx=2178309; ecx=3524578; edx=2178309; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=2178309; ebx=2178309; ecx=3524578; edx=2178309; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=2178309; ebx=2178309; ecx=3524578; edx=2178309; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=2178309; ebx=2178309; ecx=3524578; edx=2178309; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=1821691; ebx=2178309; ecx=3524578; edx=2178309; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1821691; ebx=2178309; ecx=3524578; edx=2178309; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=1821691; ebx=2178309; ecx=3524578; edx=2178309; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1821691; ebx=2178309; ecx=3524578; edx=2178309; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=1821691; ebx=2178309; ecx=3524578; edx=2178309; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=1821691; ebx=2178309; ecx=3524578; edx=2178309; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=1821691; ebx=2178309; ecx=3524578; edx=2178309; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=1821691; ebx=2178309; ecx=3524578; edx=2178309; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=1821691; ebx=5702887; ecx=3524578; edx=2178309; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1821691; ebx=5702887; ecx=3524578; edx=2178309; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=1821691; ebx=5702887; ecx=3524578; edx=2178309; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=1821691; ebx=5702887; ecx=3524578; edx=2178309; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=5702887; ecx=3524578; edx=2178309; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=5702887; ecx=3524578; edx=2178309; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=5702887; ecx=3524578; edx=2178309; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=5702887; ecx=3524578; edx=2178309; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=5702887; ecx=3524578; edx=3524578; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=3524578; ebx=5702887; ecx=3524578; edx=3524578; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=3524578; ebx=5702887; ecx=3524578; edx=5702887; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=3524578; ebx=5702887; ecx=5702887; edx=5702887; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=3524578; ebx=5702887; ecx=5702887; edx=3524578; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=3524578; ebx=3524578; ecx=5702887; edx=3524578; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=3524578; ebx=3524578; ecx=5702887; edx=3524578; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=3524578; ebx=3524578; ecx=5702887; edx=3524578; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=3524578; ebx=3524578; ecx=5702887; edx=3524578; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=3524578; ebx=3524578; ecx=5702887; edx=3524578; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=3524578; ebx=3524578; ecx=5702887; edx=3524578; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=475422; ebx=3524578; ecx=5702887; edx=3524578; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=475422; ebx=3524578; ecx=5702887; edx=3524578; eip=24; esp=100000;	INSTRUCTION: jn
+[LOG] eax=475422; ebx=3524578; ecx=5702887; edx=3524578; eip=25; esp=100000;	INSTRUCTION: jz
+[LOG] eax=475422; ebx=3524578; ecx=5702887; edx=3524578; eip=7; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=475422; ebx=3524578; ecx=5702887; edx=3524578; eip=8; esp=100000;	INSTRUCTION: label
+[LOG] eax=475422; ebx=3524578; ecx=5702887; edx=3524578; eip=9; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=475422; ebx=3524578; ecx=5702887; edx=3524578; eip=10; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=475422; ebx=3524578; ecx=5702887; edx=3524578; eip=11; esp=100000;	INSTRUCTION: sum
+[LOG] eax=475422; ebx=9227465; ecx=5702887; edx=3524578; eip=12; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=475422; ebx=9227465; ecx=5702887; edx=3524578; eip=13; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=475422; ebx=9227465; ecx=5702887; edx=3524578; eip=14; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=475422; ebx=9227465; ecx=5702887; edx=3524578; eip=15; esp=100000;	INSTRUCTION: mod
+[LOG] eax=1; ebx=9227465; ecx=5702887; edx=3524578; eip=16; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=1; ebx=9227465; ecx=5702887; edx=3524578; eip=17; esp=100000;	INSTRUCTION: jz
+[LOG] eax=1; ebx=9227465; ecx=5702887; edx=3524578; eip=32; esp=100000;	INSTRUCTION: jnz
+[LOG] eax=1; ebx=9227465; ecx=5702887; edx=3524578; eip=33; esp=100000;	INSTRUCTION: label
+[LOG] eax=1; ebx=9227465; ecx=5702887; edx=5702887; eip=34; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=5702887; ebx=9227465; ecx=5702887; edx=5702887; eip=35; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=5702887; ebx=9227465; ecx=5702887; edx=9227465; eip=36; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=5702887; ebx=9227465; ecx=9227465; edx=9227465; eip=37; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=5702887; ebx=9227465; ecx=9227465; edx=5702887; eip=38; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=5702887; ebx=5702887; ecx=9227465; edx=5702887; eip=39; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=5702887; ebx=5702887; ecx=9227465; edx=5702887; eip=18; esp=100000;	INSTRUCTION: jmp
+[LOG] eax=5702887; ebx=5702887; ecx=9227465; edx=5702887; eip=19; esp=100000;	INSTRUCTION: label
+[LOG] eax=5702887; ebx=5702887; ecx=9227465; edx=5702887; eip=20; esp=100000;	INSTRUCTION: alu1
+[LOG] eax=5702887; ebx=5702887; ecx=9227465; edx=5702887; eip=21; esp=100000;	INSTRUCTION: alu2
+[LOG] eax=5702887; ebx=5702887; ecx=9227465; edx=5702887; eip=22; esp=100000;	INSTRUCTION: sub
+[LOG] eax=-1702887; ebx=5702887; ecx=9227465; edx=5702887; eip=23; esp=100000;	INSTRUCTION: write_from_alu
+[LOG] eax=-1702887; ebx=5702887; ecx=9227465; edx=5702887; eip=40; esp=100000;	INSTRUCTION: jn
+[LOG] eax=-1702887; ebx=5702887; ecx=9227465; edx=5702887; eip=41; esp=100000;	INSTRUCTION: label
+[LOG] eax=-1702887; ebx=5702887; ecx=9227465; edx=4613732; eip=42; esp=100000;	INSTRUCTION: write_to_bufreg
+[LOG] eax=4613732; ebx=5702887; ecx=9227465; edx=4613732; eip=43; esp=100000;	INSTRUCTION: write_buf_to_reg
+[LOG] eax=4613732; ebx=5702887; ecx=9227465; edx=4613732; eip=44; esp=100000;	INSTRUCTION: out
+[
+  {
+    "line_number": 2,
+    "optype": "label",
+    "operation_number": 0,
+    "arg": {
+      "name": "start",
+      "immed": true,
+      "value": null
+    }
+  },
+  {
+    "line_number": 3,
+    "optype": "write_to_bufreg",
+    "operation_number": 1,
+    "arg": {
+      "name": "1"
+    }
+  },
+  {
+    "line_number": 3,
+    "optype": "write_buf_to_reg",
+    "operation_number": 2,
+    "arg": {
+      "name": "ebx"
+    }
+  },
+  {
+    "line_number": 4,
+    "optype": "write_to_bufreg",
+    "operation_number": 3,
+    "arg": {
+      "name": "2"
+    }
+  },
+  {
+    "line_number": 4,
+    "optype": "write_buf_to_reg",
+    "operation_number": 4,
+    "arg": {
+      "name": "ecx"
+    }
+  },
+  {
+    "line_number": 5,
+    "optype": "write_to_bufreg",
+    "operation_number": 5,
+    "arg": {
+      "name": "2"
+    }
+  },
+  {
+    "line_number": 5,
+    "optype": "write_buf_to_reg",
+    "operation_number": 6,
+    "arg": {
+      "name": "[esp]"
+    }
+  },
+  {
+    "line_number": 7,
+    "optype": "label",
+    "operation_number": 7,
+    "arg": {
+      "name": "loop",
+      "immed": true,
+      "value": null
+    }
+  },
+  {
+    "line_number": 8,
+    "optype": "alu1",
+    "operation_number": 8,
+    "arg": {
+      "name": "ebx"
+    }
+  },
+  {
+    "line_number": 8,
+    "optype": "alu2",
+    "operation_number": 9,
+    "arg": {
+      "name": "ecx"
+    }
+  },
+  {
+    "line_number": 8,
+    "optype": "sum",
+    "operation_number": 10,
+    "arg": null
+  },
+  {
+    "line_number": 8,
+    "optype": "write_from_alu",
+    "operation_number": 11,
+    "arg": {
+      "name": "ebx"
+    }
+  },
+  {
+    "line_number": 9,
+    "optype": "alu1",
+    "operation_number": 12,
+    "arg": {
+      "name": "ebx"
+    }
+  },
+  {
+    "line_number": 9,
+    "optype": "alu2",
+    "operation_number": 13,
+    "arg": {
+      "name": "2"
+    }
+  },
+  {
+    "line_number": 9,
+    "optype": "mod",
+    "operation_number": 14,
+    "arg": null
+  },
+  {
+    "line_number": 9,
+    "optype": "write_from_alu",
+    "operation_number": 15,
+    "arg": {
+      "name": "eax"
+    }
+  },
+  {
+    "line_number": 10,
+    "optype": "jz",
+    "operation_number": 16,
+    "arg": {
+      "name": "add_to_sum"
+    }
+  },
+  {
+    "line_number": 11,
+    "optype": "jnz",
+    "operation_number": 17,
+    "arg": {
+      "name": "swap"
+    }
+  },
+  {
+    "line_number": 12,
+    "optype": "label",
+    "operation_number": 18,
+    "arg": {
+      "name": "continue",
+      "immed": true,
+      "value": null
+    }
+  },
+  {
+    "line_number": 13,
+    "optype": "alu1",
+    "operation_number": 19,
+    "arg": {
+      "name": "[limit]"
+    }
+  },
+  {
+    "line_number": 13,
+    "optype": "alu2",
+    "operation_number": 20,
+    "arg": {
+      "name": "ebx"
+    }
+  },
+  {
+    "line_number": 13,
+    "optype": "sub",
+    "operation_number": 21,
+    "arg": null
+  },
+  {
+    "line_number": 13,
+    "optype": "write_from_alu",
+    "operation_number": 22,
+    "arg": {
+      "name": "eax"
+    }
+  },
+  {
+    "line_number": 14,
+    "optype": "jn",
+    "operation_number": 23,
+    "arg": {
+      "name": "end"
+    }
+  },
+  {
+    "line_number": 15,
+    "optype": "jz",
+    "operation_number": 24,
+    "arg": {
+      "name": "end"
+    }
+  },
+  {
+    "line_number": 16,
+    "optype": "jmp",
+    "operation_number": 25,
+    "arg": {
+      "name": "loop"
+    }
+  },
+  {
+    "line_number": 18,
+    "optype": "label",
+    "operation_number": 26,
+    "arg": {
+      "name": "add_to_sum",
+      "immed": true,
+      "value": null
+    }
+  },
+  {
+    "line_number": 19,
+    "optype": "alu1",
+    "operation_number": 27,
+    "arg": {
+      "name": "[esp]"
+    }
+  },
+  {
+    "line_number": 19,
+    "optype": "alu2",
+    "operation_number": 28,
+    "arg": {
+      "name": "ebx"
+    }
+  },
+  {
+    "line_number": 19,
+    "optype": "sum",
+    "operation_number": 29,
+    "arg": null
+  },
+  {
+    "line_number": 19,
+    "optype": "write_from_alu",
+    "operation_number": 30,
+    "arg": {
+      "name": "[esp]"
+    }
+  },
+  {
+    "line_number": 20,
+    "optype": "jmp",
+    "operation_number": 31,
+    "arg": {
+      "name": "swap"
+    }
+  },
+  {
+    "line_number": 22,
+    "optype": "label",
+    "operation_number": 32,
+    "arg": {
+      "name": "swap",
+      "immed": true,
+      "value": null
+    }
+  },
+  {
+    "line_number": 23,
+    "optype": "write_to_bufreg",
+    "operation_number": 33,
+    "arg": {
+      "name": "ecx"
+    }
+  },
+  {
+    "line_number": 23,
+    "optype": "write_buf_to_reg",
+    "operation_number": 34,
+    "arg": {
+      "name": "eax"
+    }
+  },
+  {
+    "line_number": 24,
+    "optype": "write_to_bufreg",
+    "operation_number": 35,
+    "arg": {
+      "name": "ebx"
+    }
+  },
+  {
+    "line_number": 24,
+    "optype": "write_buf_to_reg",
+    "operation_number": 36,
+    "arg": {
+      "name": "ecx"
+    }
+  },
+  {
+    "line_number": 25,
+    "optype": "write_to_bufreg",
+    "operation_number": 37,
+    "arg": {
+      "name": "eax"
+    }
+  },
+  {
+    "line_number": 25,
+    "optype": "write_buf_to_reg",
+    "operation_number": 38,
+    "arg": {
+      "name": "ebx"
+    }
+  },
+  {
+    "line_number": 26,
+    "optype": "jmp",
+    "operation_number": 39,
+    "arg": {
+      "name": "continue"
+    }
+  },
+  {
+    "line_number": 28,
+    "optype": "label",
+    "operation_number": 40,
+    "arg": {
+      "name": "end",
+      "immed": true,
+      "value": null
+    }
+  },
+  {
+    "line_number": 29,
+    "optype": "write_to_bufreg",
+    "operation_number": 41,
+    "arg": {
+      "name": "[esp]"
+    }
+  },
+  {
+    "line_number": 29,
+    "optype": "write_buf_to_reg",
+    "operation_number": 42,
+    "arg": {
+      "name": "eax"
+    }
+  },
+  {
+    "line_number": 30,
+    "optype": "out",
+    "operation_number": 43,
+    "arg": null
+  }
+]

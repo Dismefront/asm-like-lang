@@ -8,6 +8,12 @@ from machine.inst_mem import get_instruction
 from machine.data_mem import data_memory, data_memory_mapper as dmm
 from machine.inst_mem import label_mapper
 
+
+def set_debug_output(file: TextIOWrapper) -> None:
+    global debug
+    debug = file
+
+
 dmm, data_memory
 
 eax: str | int = 0
@@ -123,7 +129,9 @@ def handle_next() -> None:
             var = parse_lang(command.arg.name)
             var = var + '=' + var + '+1'
             exec(var, globals())
-    print('ebx, ecx', ebx, ecx)
+    debug.write(f'[LOG] eax={eax}; \
+ebx={ebx}; ecx={ecx}; edx={edx}; \
+eip={eip}; esp={esp};\tINSTRUCTION: {command.optype}\n')
 
 
 def start() -> None:
