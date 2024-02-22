@@ -69,6 +69,14 @@ class LLI(Enum):
     OUT = 'out'
     PUSH = 'push'
     POP = 'pop'
+    EXIT = 'exit'
+
+
+def cmd_exit(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is None
+    return [
+        Command(line_number, LLI.EXIT.value, None),
+    ]
 
 
 def jmp(line_number: int, args: List[Arg] | None) -> List[Command]:
@@ -95,7 +103,7 @@ def jmp(line_number: int, args: List[Arg] | None) -> List[Command]:
 
 
 def io_out(line_number: int, args: List[Arg] | None) -> List[Command]:
-    assert args is not None and len(args) == 1
+    assert args is None
     return [
         Command(line_number, LLI.OUT.value, None)
     ]

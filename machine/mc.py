@@ -1,7 +1,8 @@
 from typing import List
 from machine.commands import \
     add, label, mov, sub, compare, \
-    inc, dec, jz, jnz, io_in, io_out
+    inc, dec, jz, jnz, io_in, io_out, \
+    cmd_exit
 from translator.tokenizer import CiscCommand
 
 
@@ -17,7 +18,8 @@ INSTRUCTIONS = {
     'in': io_in,
     'out': io_out,
     'call': add,
-    'ret': add
+    'ret': add,
+    'exit': cmd_exit
 }
 
 
