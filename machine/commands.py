@@ -60,6 +60,7 @@ class LLI(Enum):
     JZ = 'jz'
     JNZ = 'jnz'
     JMP = 'jmp'
+    ALU_SIG_MOD2 = 'mod2'
     WRITE_FROM_ALU = 'write_from_alu'
     WRITE_TO_BUF_REG = 'write_to_bufreg'
     WRITE_BUF_TO_REG = 'write_buf_to_reg'
@@ -70,6 +71,17 @@ class LLI(Enum):
     PUSH = 'push'
     POP = 'pop'
     EXIT = 'exit'
+
+
+def cmd_mod2(line_number: int, args: List[Arg] | None) -> List[Command]:
+    assert args is not None
+    eax = Arg('eax')
+    return [
+        Command(line_number, LLI.ALU1.value, args[0]),
+        Command(line_number, LLI.ALU2.value, args[1]),
+        Command(line_number, LLI.ALU_SIG_MOD2.value, None),
+        Command(line_number, LLI.WRITE_FROM_ALU.value, eax)
+    ]
 
 
 def cmd_exit(line_number: int, args: List[Arg] | None) -> List[Command]:
