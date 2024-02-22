@@ -110,10 +110,9 @@ def io_out(line_number: int, args: List[Arg] | None) -> List[Command]:
 
 
 def io_in(line_number: int, args: List[Arg] | None) -> List[Command]:
-    assert args is not None and len(args) == 1
+    assert args is None
     return [
-        Command(line_number, LLI.I_INT.value, None),
-        Command(line_number, LLI.STORE_SYMB.value, args[0])
+        Command(line_number, LLI.I_INT.value, None)
     ]
 
 

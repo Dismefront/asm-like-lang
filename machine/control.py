@@ -1,4 +1,6 @@
+from io import TextIOWrapper
 import re
+from typing import List, Tuple
 from machine.alu import put_first_entry, put_second_entry, sub_signal
 from machine.commands import Command, LLI
 from machine.inst_mem import get_instruction
@@ -7,15 +9,33 @@ from machine.inst_mem import label_mapper
 
 dmm, data_memory
 
-eax = 0
+eax: str | int = 0
 ebx = 0
 ecx = 0
 edx = 0
 esp = 100000
 eip = 0
 tick = 0
+interrupted_state = False
+
+
 tmp: int | str = 0
 alu_res = 0
+
+
+input_device: None | TextIOWrapper = None
+output_device: None | TextIOWrapper = None
+
+
+input_buffer: List[Tuple[int, str | int]] = []
+
+
+def set_devices(input_src: str, output_src: str) -> None:
+    global input_device, output_device, input_buffer
+    global ib_dict
+    input_device = open(input_src, 'r')
+    output_device = open(output_src, 'w+')
+    exec('input_buffer=' + input_device.readline(), globals())
 
 
 def parse_lang(exp: str) -> str:
@@ -33,10 +53,22 @@ def parse_lang(exp: str) -> str:
 
 def handle_next() -> None:
     global eip, eax, ebx, ecx, edx, eip, tmp
-    global alu_res
+    global alu_res, tick, interrupted_state
+    tick += 1
+    if interrupted_state is True:
+        if len(input_buffer) == 0:
+            eax = 1000
+            interrupted_state = False
+        elif tick >= input_buffer[0][0]:
+            eax = input_buffer[0][1]
+            input_buffer.pop(0)
+            interrupted_state = False
+        return
     command: Command = get_instruction(eip)
     eip += 1
     match command.optype:
+        case LLI.I_INT.value:
+            interrupted_state = True
         case LLI.WRITE_TO_BUF_REG.value:
             assert command.arg is not None
             var = 'edx=' + parse_lang(command.arg.name)
@@ -46,7 +78,8 @@ def handle_next() -> None:
             var = parse_lang(command.arg.name) + '=' + 'edx'
             exec(var, globals())
         case LLI.OUT.value:
-            print("out: ", eax)
+            assert output_device is not None
+            output_device.write(str(eax))
         case LLI.ALU1.value:
             assert command.arg is not None
             var = parse_lang(command.arg.name)
@@ -76,7 +109,6 @@ def handle_next() -> None:
             var = parse_lang(command.arg.name)
             var = var + '=' + var + '+1'
             exec(var, globals())
-    print(eax, ebx, ecx, edx, eip, label_mapper)
 
 
 def start() -> None:
