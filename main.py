@@ -6,6 +6,7 @@ from translator.tokenizer import tokenize
 from machine.mc import generate_mc
 from machine.inst_mem import save_instructions
 from machine.control import start, set_devices
+from machine.data_mem import data_memory
 
 if __name__ == "__main__":
     assert len(sys.argv) == 4, \
@@ -24,4 +25,4 @@ if __name__ == "__main__":
     # import json
     print(json.dumps([x.toJSON() for x in mc], indent=2))
     # print([(x, data_memory_mapper[x]) for x in list(data_memory_mapper)])
-    # print(data_memory[:30])
+    print(data_memory[:50])

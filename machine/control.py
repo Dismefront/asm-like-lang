@@ -69,6 +69,7 @@ def handle_next() -> None:
     match command.optype:
         case LLI.I_INT.value:
             interrupted_state = True
+            print("asfasdf")
         case LLI.WRITE_TO_BUF_REG.value:
             assert command.arg is not None
             var = 'edx=' + parse_lang(command.arg.name)
