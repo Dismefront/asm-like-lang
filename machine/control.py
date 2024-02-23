@@ -68,7 +68,7 @@ def parse_lang(exp: str) -> str:
     return exp
 
 
-def handle_next() -> None:
+def handle_next() -> str:
     global eip, eax, ebx, ecx, edx, eip, tmp
     global debug
     global alu_res, tick, interrupted_state
@@ -81,7 +81,7 @@ def handle_next() -> None:
             eax = input_buffer[0][1]
             input_buffer.pop(0)
             interrupted_state = False
-        return
+        return "NOP"
     command: Command = get_instruction(eip)
     eip += 1
     match command.optype:
@@ -139,15 +139,32 @@ def handle_next() -> None:
             var = parse_lang(command.arg.name)
             var = var + '=' + var + '+1'
             exec(var, globals())
-    debug.write(f'[LOG] eax={eax}; \
-ebx={ebx}; ecx={ecx}; edx={edx}; \
-eip={eip}; esp={esp};\tINSTRUCTION: {command.optype}\n')
+    return command.optype
+
+
+def to_hex(val: str | int) -> str:
+    if isinstance(val, int):
+        return str(hex(val))
+    else:
+        return str(hex(ord(val)))
 
 
 def start() -> None:
+    global tick, eax, ebx, ecx, edx, eip, esp
+    global debug
     while True:
         try:
-            handle_next()
+            inst = handle_next()
+            oeax = to_hex(eax)
+            oebx = to_hex(ebx)
+            oecx = to_hex(ecx)
+            oedx = to_hex(edx)
+            oeip = to_hex(eip)
+            oesp = to_hex(esp)
+
+            debug.write(f'[LOG(tick={tick})] eax={oeax}; \
+ebx={oebx}; ecx={oecx}; edx={oedx}; \
+eip={oeip}; esp={oesp};\tINSTRUCTION: {inst}\n')
         except IndexError:
             break
     print('program finished')
