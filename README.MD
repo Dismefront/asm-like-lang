@@ -273,7 +273,7 @@ Data memory
 ## Модель процессора
 
 ### Схема DataPath
-![datapath](imgs/dp.png)
+![datapath](imgs/datapath.png)
 ### Схема Control Unit
 ![control unit](imgs/cu.png)
 
