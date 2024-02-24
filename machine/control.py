@@ -25,7 +25,7 @@ ecx = 0
 edx = 0
 esp = 100000
 eip = 0
-tick = 0
+pc = 0
 interrupted_state = False
 
 
@@ -71,13 +71,13 @@ def parse_lang(exp: str) -> str:
 def handle_next() -> str:
     global eip, eax, ebx, ecx, edx, eip, tmp
     global debug
-    global alu_res, tick, interrupted_state
-    tick += 1
+    global alu_res, pc, interrupted_state
+    pc += 1
     if interrupted_state is True:
         if len(input_buffer) == 0:
             eax = 1000
             interrupted_state = False
-        elif tick >= input_buffer[0][0]:
+        elif pc >= input_buffer[0][0]:
             eax = input_buffer[0][1]
             input_buffer.pop(0)
             interrupted_state = False
@@ -150,7 +150,7 @@ def to_hex(val: str | int) -> str:
 
 
 def start() -> None:
-    global tick, eax, ebx, ecx, edx, eip, esp
+    global pc, eax, ebx, ecx, edx, eip, esp
     global debug
     while True:
         try:
@@ -162,7 +162,7 @@ def start() -> None:
             oeip = to_hex(eip)
             oesp = to_hex(esp)
 
-            debug.write(f'[LOG(tick={tick})] eax={oeax}; \
+            debug.write(f'[LOG(tick={pc})] eax={oeax}; \
 ebx={oebx}; ecx={oecx}; edx={oedx}; \
 eip={oeip}; esp={oesp};\tINSTRUCTION: {inst}\n')
         except IndexError:
